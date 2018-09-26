@@ -6,7 +6,7 @@ Just download totem_parallax.js, import it in your project and you are done.
 
 ## HOW TO USE IT
 4 'modes' are possible:
-1- simple mouse tracking with different intensities, use the attribute data-totmov="" on any div you want to move
+1- simple mouse tracking with different intensities, use the attribute <code>data-totmov=""</code> on any div you want to move
 EXAMPLE:
 <div data-totmov="0.23"></div>
 
