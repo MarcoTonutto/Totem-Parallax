@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <title>Marco Tonutto</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,400" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="section">
+      <h1>TOTEM PARALLAX</h1>
+      <h2>Simple mouse and device orientation tracking effect, inspired from <a href="http://matthew.wagerfield.com/parallax/" target="_blank">Parallax.js</a></h2>
+
+    </div>
+    <div class="section">
+      <h3>simple mouse tracking with different intensities, use the attribute <code>data-totmov=""</code> on any div you want to move</h3>
+      <div class="parallax-section">
+        <div class="testattr" data-totmov=".05"></div>
+        <div class="testattr" data-totmov=".1"></div>
+        <div class="testattr" data-totmov=".15"></div>
+        <div class="testattr" data-totmov=".2"></div>
+        <div class="testattr" data-totmov=".25"></div>
+        <div class="testattr" data-totmov=".3"></div>
+        <div class="testattr" data-totmov=".45"></div>
+        <div class="testattr" data-totmov=".6"></div>
+        <div class="testattr" data-totmov=".8"></div>
+      </div>
+    </div>
+    <div class="section">
+      <h3>only x movement, use the attribute <code>data-totmovx=""</code> on any div you want to move</h3>
+      <div class="parallax-section">
+        <div class="testattr" data-totmovx=".5"></div>
+      </div>
+    </div>
+    <div class="section">
+      <h3>only y movement, use the attribute <code>data-totmovy=""</code> on any div you want to move</h3>
+      <div class="parallax-section">
+        <div class="testattr" data-totmovy=".5"></div>
+      </div>
+    </div>
+    <div class="section">
+      <h3>different intensities for x movement and y movement, use the attributes <code>data-totmovx=""</code> and <code>data-totmovy=""</code> on any div you want to move</h3>
+      <div class="parallax-section">
+        <div class="testattr" data-totmovx=".4" data-totmovy=".2"></div>
+        <div class="testattr" data-totmovx=".2" data-totmovy=".4"></div>
+      </div>
+    </div>
+
+  </div>
+  <script src="js/totem_parallax.js" charset="utf-8"></script>
+</body>
+
+</html>
